@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreRxApiPoC", "CoreRxApiPoC\CoreRxApiPoC.csproj", "{3CB5CDEF-994D-436D-AC4D-A4411DDE0950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreRxApi", "CoreRxApi\CoreRxApi.csproj", "{932E2582-E872-4ED7-9A6C-126986230EA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CB5CDEF-994D-436D-AC4D-A4411DDE0950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB5CDEF-994D-436D-AC4D-A4411DDE0950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB5CDEF-994D-436D-AC4D-A4411DDE0950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB5CDEF-994D-436D-AC4D-A4411DDE0950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{932E2582-E872-4ED7-9A6C-126986230EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932E2582-E872-4ED7-9A6C-126986230EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932E2582-E872-4ED7-9A6C-126986230EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932E2582-E872-4ED7-9A6C-126986230EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
