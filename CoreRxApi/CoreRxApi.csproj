@@ -7,26 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="LibUsbDotNet" Version="2.2.29" />
     <PackageReference Include="System.IO.Ports" Version="9.0.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="dll\libusb-1.0.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="dll\libusb-1.0.exp">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="dll\libusb-1.0.lib">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="dll\libusb-1.0.pdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="MinGW64\dll\libusb-1.0.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <ProjectReference Include="..\LibUsbDotNet-snapshot_22Sept2023\src\LibUsbDotNet\LibUsbDotNet.csproj" />
   </ItemGroup>
 
 </Project>
